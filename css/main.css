@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
+* {
+    margin: auto;
+}
+
+header {
+    background: #87d36f;
+    text-align: center;
+    border-bottom: solid 5px #81c945;
+    padding: 50px;
+}
+
+h1 {
+    font-family: "Alan Sans", sans-serif;
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "Alan Sans", sans-serif;
+}
+
+p {
+    font-family: "Alan Sans", sans-serif;
+    color: #9206ce;
+}
+
+#foto-perfil {
+    width: 300px;
+    border-radius: 30px;
+    float: right;
+}
