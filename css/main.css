@@ -1,32 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
 
 * {
-    margin: auto;
+    margin : auto;
 }
 
 header {
-    background: #87d36f;
-    text-align: center;
-    border-bottom: solid 5px #81c945;
-    padding: 50px;
+    background : #62a0d7;
+    text-align : center;
+    border-bottom : solid 5px #457cc9;
+    padding : 50px;
 }
 
 h1 {
-    font-family: "Alan Sans", sans-serif;
-    font-size: 50px;
+    font-family : "Alan Sans", sans-serif;
+    font-size : 50px;
 }
 
-h2 {
-    font-family: "Alan Sans", sans-serif;
+h2,h3 {
+    font-family : "Alan Sans", sans-serif;
 }
 
 p {
-    font-family: "Alan Sans", sans-serif;
-    color: #9206ce;
+    font-family : "Alan Sans", sans-serif;
+    color : #9206ce;
 }
 
 #foto-perfil {
-    width: 300px;
-    border-radius: 30px;
-    float: right;
+    width : 300px;
+    border-radius : 30px;
+    float : right;
+}
+
+main{
+    overflow : hidden;
+}
+
+section{
+    overflow : hidden;
+}
+
+#proyectos{
+    padding : 20px 30px;
+    border-top : solid 5px #457cc9;
+    margin-top : 30px;
+    text-align : center;
+}
+
+.proyecto{
+    float : left;
+    width : 33%;
+    margin-top : 20px;
+}
+
+.proyecto img{
+    width : 90%;
+    border-radius : 15px;
+    margin-top : 10px;
+}
+
+.proyecto p{
+    text-align : justify;
+    padding : 10px 20px;
+    color : #000000;
+}
+
+.proyecto h3{
+    color : #1021b6;
+}
+
+#habilidades{
+    overflow : hidden;
+    margin-top : 20px;
+    padding-bottom: 20px;
+    border-top : solid 5px #457cc9;
+    margin-bottom: 30px;
+}
+
+progress{
+    width : 100%;
+    height : 25px;
+    border-radius: 5px;
+    margin : 10px 0;
+}
+
+.lista-tecnologias{
+    list-style : none;
+    display : grid;
+    margin-left : 0;
+    gap : 15px;
+}
+
+.lista-tecnologias li{
+    background-color: #541692;
+    color : #ffffff;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
 }
