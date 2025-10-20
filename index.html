@@ -174,7 +174,48 @@
             <form>
                 <div class="campos">
                     <label> Nombre completo </label>
-                    <input type="text" value="Hector Partido Flores" name="nombre" placeholder="Nombre completo" />
+                    <input type="text" value="Hector Partido Flores" name="nombre" placeholder="Nombre completo"
+                        required />
+                </div>
+                <div class="campos">
+                    <label> Email </label>
+                    <input type="email" name="correo_electronico" placeholder="ejemplo@utcancun.edu.mx" />
+                </div>
+                <div class="campos">
+                    <label> Motivo </label>
+                    <select>
+                        <option value="1"> Contacto </option>
+                        <option selected> Cotización </option>
+                        <option> Otro </option>
+                    </select>
+                </div>
+                <div class="campos">
+                    <label> Teléfono </label>
+                    <input type="tel" />
+                </div>
+                <div class="campos">
+                    <label> Fecha de evento </label>
+                    <input type="date" />
+                </div>
+                <div class="campos">
+                    <label> Número de empleados </label>
+                    <input type="number" />
+                </div>
+                <div class="campos">
+                    <label> Modo de contacto </label>
+                    <input type="checkbox" class="opciones" name="modalidad"/> <span> WhatsApp </span>
+                    <input type="checkbox" class="opciones" name="modalidad"/> <span> Correo </span>
+                </div>
+                <div class="campos">
+                    <label> ¿Eres cliente? </label>
+                    <input type="radio" class="opciones" name="escliente" /> <span> Sí</span>
+                    <input type="radio" class="opciones" name="escliente" /> <span> No</span>
+                </div>
+                <div class="campos">
+                    <label> Fotografía </label>
+                    <input type="file" />
+                </div>
+                <div class="campos">
                     <button> Enviar </button>
                 </div>
             </form>
